@@ -1,0 +1,69 @@
+//Day 4: Loops
+//Task/Activities:
+/*==============================================*/
+//Activity 1: For Loop
+// Task 1: Write a program to print numbers from 1 to 10 using for loop.
+
+for (let index = 1; index <= 10; index++) {
+    const element = index;
+    // console.log(element);
+}
+// console.log(element);
+//Task 2: Write a program to print the multiplication table of 5 using a for loop.
+for (let i = 5; i <= 5; i++) {
+    // console.log(`Table of : ${i}`);
+    for (let j = 1; j < 10; j++) {
+        //console.log(`Inner loop value ${j} and inner loop ${i}`);
+        // console.log(i + '*' + j + ' = ' + i*j);   
+    }
+
+}
+/*==============================================*/
+//Activity 2: While Loop
+/*---------------------------------------*/
+//Task 3: Write a program to calculate the sum of numbers from 1 to 10 using a while loop.
+
+// let num = 0, 
+// sum = 0;
+
+// while (num < 10) {
+//     num ++
+//     sum = sum + num
+//     // console.log(`The mum is : ${num}`);
+// }
+// console.log(`The Sum of 1 to 10 is : ${sum}`);
+
+/*---------------------------------------*/
+// Task 4: Write a program to print numbers from 10 to 1 using a while loop.
+
+let num1 = 11
+
+while (num1 > 1) {
+    num1 --;
+    // console.log(`The mum is : ${num1}`);
+}
+
+/*==============================================*/
+//Activity 3: Do ... While Loop
+/*---------------------------------------*/
+//Task 5: Write a program to print numbers from 1 to 5 using a do ... while loop.
+
+let DoWhileNumber = 1;
+
+do {
+    // console.log(DoWhileNumber);
+    DoWhileNumber++
+} while (DoWhileNumber <=5);
+
+//Task 5: Write a program to calculate the factorial of a number using do ... while loop.
+
+factorial = 1
+StartNumber = 1
+EndNumber = 5
+do {
+    factorial *=
+    StartNumber++    
+} while (StartNumber <= EndNumber);
+
+console.log(`The factorial ${factorial}`);
+
